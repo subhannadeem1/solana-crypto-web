@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Logo from "@/public/Logo.png"
 import Image from 'next/image'
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";  // Import this
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";  
   
 
 const Navbar = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const handleLinkClick = () => {
-    setIsSheetOpen(false);  // Close the sheet when a link is clicked
+    setIsSheetOpen(false);
   };
   const { connected } = useWallet();
   return (

@@ -33,7 +33,7 @@ const Hero = () => {
     seconds: 0,
   });
 
-  const targetDate = new Date("2024-09-29T00:00:00").getTime(); // Set your target date here
+  const targetDate = new Date("2024-09-29T00:00:00").getTime();
 
   useEffect(() => {
     AOS.init({
@@ -109,14 +109,12 @@ const Hero = () => {
           </div>
 
           <div className="relative mt-10 md:mt-5 flex justify-center items-center">
-            {/* Image */}
             <Image
               data-aos="fade-up"
               src={Astronaut}
               alt="Astronaut Image"
               className="lg:w-[511px] lg:h-[768px] xs:w-[285px] md:w-[339px] xs:h-[396px] md:h-[431px] lg:ml-52 "
             />
-            {/* card */}
 
             <div className="absolute   top-1/2 left-1/2  lg:h-[472px] xs:h-[290px] md:h-[310px] lg:w-[514px] xs:w-[300px] md:w-[480px] transform -translate-x-1/2 -translate-y-1/2  bg-[rgba(133,75,255,0.04)] backdrop-blur-[10px] rounded-[20px]  lg:p-[40px] xs:p-[23px] md:p-[23px] flex flex-col  items-start lg:gap-[20px] xs:gap-[16px]  overflow-hidden gradient-border-header">
               <h2 className="text-white lg:text-3xl xs:text-sm lg:font-semibold xs:font-normal lg:block hidden  ">
