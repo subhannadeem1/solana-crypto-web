@@ -44,7 +44,6 @@ const BusinessUtility = () => {
 
           <div className="xl:w-[1180px] lg:h-[360px] xl:mx-[130px] xs:mx-4 md:mx-7 mt-[46px]  rounded-[20px]  gradient-border-right ">
             <div className="text-white flex flex-col lg:flex-row lg:items-center">
-              {/* Image: Show below boxes for xs and md screens, and on the left for large screens */}
               <div className="lg:block  order-2 lg:order-1    mb-8 lg:mb-0 flex justify-center">
                 <Image
                   src={digitalArt}
@@ -88,7 +87,6 @@ const BusinessUtility = () => {
         </div>
       </div>
 
-      {/* about us section */}
       <div className="w-full max-w-[1444px] mx-auto" id="TOKENOMICS">
         <div className="flex flex-col   mt-[60px] lg:flex-row xl:px-[130px] md:px-[48px] xs:px-[20px] lg:pb-[192px] xs:pb-[49px] md:pb-[49px] items-center  ">
           <div className="lg:w-[565px] w-full h-full flex flex-col justify-center ">

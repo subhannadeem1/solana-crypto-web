@@ -20,7 +20,7 @@ const AboutUS = () => {
       className=" text-white py-16 xl:h-[1081px] w-full bg-cover"
       id="AboutUS"
     >
-      {/* First Section */}
+
       <div className="flex flex-col  lg:flex-row items-center justify-center max-w-[1444px] mx-auto w-full md:px-[48px] lg:px-24">
         <div
           className="w-full lg:w-1/2  flex justify-center  mb-8 lg:mb-0"
@@ -56,8 +56,6 @@ const AboutUS = () => {
           </p>
         </div>
       </div>
-
-      {/* Second Section */}
 
       <div
         className="max-w-[1444px]  lg:px-16 md:px-16 mx-auto grid grid-cols-1 gap-8 xs:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 m-16 xs:m-4"
